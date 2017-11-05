@@ -1,0 +1,13 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    title Livres
+  body
+    ul
+      each book in books
+        li= `${book.title}- ${book.author}- ${book.price}`
+        
+
+
+
